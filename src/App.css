@@ -1,0 +1,25 @@
+body {
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* height: 100vh; */
+}
+h3 {
+  text-transform: uppercase;
+}
+.input-group .btn {
+  color: #ffffff;
+}
+.row > * {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
